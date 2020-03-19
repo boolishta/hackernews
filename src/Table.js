@@ -42,7 +42,7 @@ class Table extends Component {
             <Sort sortKey={'POINTS'} onSort={this.onSort} activeSortKey={sortKey} isSortReverse={isSortReverse}>Очки</Sort>
           </span>
           <span style={{ width: '10%' }}>
-            Архив
+            
         </span>
         </div>
         {reverseSortList.map(item =>
